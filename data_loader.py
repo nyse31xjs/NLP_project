@@ -63,7 +63,7 @@ def load_pkl(root_path: str):
 
 
 def main():
-    load_data(root_path = "/Users/hugorameil/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Code/GitHub/NLP_project/", insert_csv=False, insert_pkl=False)
+    load_data(root_path = "/Users/hugorameil/Desktop/Code/GitHub/NLP_project/", insert_csv=True, insert_pkl=True)
     dfs = load_pkl(root_path = "/Users/hugorameil/Library/Mobile Documents/com~apple~CloudDocs/Desktop/Code/GitHub/NLP_project/")
 
     
